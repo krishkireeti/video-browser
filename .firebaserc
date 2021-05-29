@@ -1,0 +1,12 @@
+
+{
+  "targets": {
+    "video-browser-5d84f": {
+      "hosting": {
+        "video-browser": [
+          "video-browser-5d84f"
+        ]
+      }
+    }
+  }
+}
