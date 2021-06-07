@@ -7,7 +7,7 @@
     </div>
   </div>
 </template>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93238037-2"></script>
 <script>
 import axios from 'axios';
 import SearchBar from './components/SearchBar';
@@ -15,6 +15,13 @@ import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 
 const API_KEY = 'AIzaSyBc6w_mtATPeVhkqACNxP1E212S7Rvw7Bk';
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93238037-2');
 
 export default {
   name: 'App',
