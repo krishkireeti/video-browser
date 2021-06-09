@@ -7,6 +7,7 @@
       <h4>{{ video.snippet.title }}</h4>
       <p>{{ video.snippet.description }}</p>
     </div>
+      <p>Enjoy the experience</p>
   </div>
 </template>
 
@@ -29,5 +30,9 @@ export default {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  color : white;
+}
+p{
+  color : white;
 }
 </style>

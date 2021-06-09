@@ -1,11 +1,18 @@
 <template>
+ 
   <div class="container">
+    <h1>Youtube App</h1><br>
+    
+    <p>This App lets you to search the videos taken from the youtube and
+   you can select and also watch them
+    </p>
     <SearchBar @termChange="onTermChange"></SearchBar>
     <div class="row">
       <VideoDetail :video="selectedVideo" />
       <VideoList @videoSelect="onVideoSelect" :videos="videos"></VideoList>
     </div>
   </div>
+ 
 </template>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93238037-2"></script>
 <script>
@@ -31,7 +38,10 @@ export default {
     VideoDetail
   },
   data() {
-    return { videos: [], selectedVideo: null };
+    return { 
+      videos: [], 
+      selectedVideo: null
+      };
   },
   methods: {
     onVideoSelect(video) {
@@ -54,3 +64,12 @@ export default {
   }
 };
 </script>
+<style scoped>
+h1,p {
+  color : white;
+}
+.image{
+  width : 100%;
+  height : 100%;
+}
+</style>
