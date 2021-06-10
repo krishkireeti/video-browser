@@ -21,7 +21,7 @@ import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 
-const API_KEY = 'AIzaSyBc6w_mtATPeVhkqACNxP1E212S7Rvw7Bk';
+const API_KEY = 'AIzaSyBRaRbhBCfTXZawAD7hfz5zxB9lIIAaw0E';
 
 
   window.dataLayer = window.dataLayer || [];
